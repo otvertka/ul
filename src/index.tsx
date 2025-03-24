@@ -1,10 +1,14 @@
 import { render } from "react-dom";
-import { Counter } from "./components/Counter";
+import App from "./components/App";
+import { BrowserRouter } from "react-router-dom";
+import ThemeProvider from "./theme/ThemeProvider";
+
 
 render(
-    <div>sdasd dsadadas asd
-
-        <Counter />
-    </div>,
+    <BrowserRouter>
+        <ThemeProvider>
+            <App />
+        </ThemeProvider>
+    </BrowserRouter>,
     document.getElementById('root')
 )
