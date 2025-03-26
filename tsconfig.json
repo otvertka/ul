@@ -13,7 +13,10 @@
     
       "allowJs": true,
       "moduleResolution": "node",
-    //   "baseUrl": ".", // Для абсолютного импорта
+      "baseUrl": ".", // Для абсолютного импорта
+      "paths": {
+        "*": ["./src/*"]
+      },
       
       "esModuleInterop": true, 
       //      esModuleInterop позволяет работать с пакетами, которые используют
