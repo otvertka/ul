@@ -8,6 +8,7 @@ const MainPage = () => {
     return (
         <div>
             {/* {t('neue uber')} */}
+            sdsd
             {t('Startseite')}
         </div>
     )
