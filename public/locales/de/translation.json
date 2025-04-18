@@ -1,7 +1,9 @@
 {
-    "Test Tipp": "Test Tipp",
-    "Übersetzung": "Übersetzung",
-    "Startseite": "Startseite",
-    "Sprache": "Deutsch",
-    "Seite nicht gefunden": "Seite nicht gefunden"
+  "Test Tipp": "Test Tipp",
+  "Übersetzung": "Übersetzung",
+  "Startseite": "Startseite",
+  "Sprache": "Deutsch",
+  "Seite nicht gefunden": "Seite nicht gefunden",
+  "Ein unerwarteter Fehler ist aufgetreten": "Ein unerwarteter Fehler ist aufgetreten",
+  "Seite aktualisieren": "Seite aktualisieren"
 }

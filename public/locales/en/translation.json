@@ -1,7 +1,9 @@
 {
-    "Test Tipp": "test example",
-    "Übersetzung": "Translate",
-    "Startseite": "Main page",
-    "Sprache": "English",
-    "Seite nicht gefunden": "Page not found" 
+  "Test Tipp": "test example",
+  "Übersetzung": "Translate",
+  "Startseite": "Main page",
+  "Sprache": "English",
+  "Seite nicht gefunden": "Page not found",
+  "Ein unerwarteter Fehler ist aufgetreten": "An unexpected error occurred",
+  "Seite aktualisieren": "Refresh the page"
 }
