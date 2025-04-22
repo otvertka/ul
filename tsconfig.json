@@ -37,50 +37,9 @@
     "compilerOptions": {
       "module": "CommonJS"
     }
-  }
+  },
+  "include": [
+    "src",
+    "./config/jest/setupTests.ts"
+  ]
 }
-
-// {
-//     "compilerOptions": {
-//       "outDir": "./dist/",
-//       "noImplicitAny": true,
-//       // Подсвечивает все места где не указан тип
-// // Однако это не означает, что теперь вовсе нельзя использовать апу.
-// // Это означает лишь, что в подобных ситуация разработчик должен явно писать апу.
-//       "module": "es6", // В какую спецификацию компилируем: для поддержки большинства браузеров
-      
-//       "target": "es5",
-//       // "jsx": "react", // Компилятор будет обрабатывать не только TS файлы, но и JS файлы
-//       "jsx": "react-jsx",
-    
-//       "allowJs": true,
-//       "moduleResolution": "node",
-//       "baseUrl": ".", // Для абсолютного импорта
-//       "paths": {
-//         "*": ["./src/*"]
-//       },
-      
-//       "esModuleInterop": true, 
-//       //      esModuleInterop позволяет работать с пакетами, которые используют
-//       // common js как с обычными пакета с помощью import (require() module. export) = common js
-//       // import Moment from 'moment';
-//       // без флага esHeduleinterop результат undefined
-//       // console. Log(Moment) ;
-//       // с флагом результат [object Object]
-//       // console. Log (Moment);
-//       "allowSyntheticDefaultImports": true,
-// // Если какая-либо библиотека не имеет derault inporc,
-// // noanenu Boone rs-loader uni bade loader автоматически созлают их.
-// // вместо такого импорта
-// // / import * as React from "react;
-// // можно писать такой
-// // import React from 'react':
-
-//     },
-//     "ts-node": {
-//     "compilerOptions": {
-//         "module": "CommonJS"
-//     }
-//   }
-//   }
-
