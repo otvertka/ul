@@ -16,7 +16,7 @@ module.exports = {
                 "node": true
             },
             "files": [
-                ".eslintrc.{js,cjs}"
+                ".eslintrc.{js,cjs}",
             ],
             "parserOptions": {
                 "sourceType": "script"
@@ -43,7 +43,7 @@ module.exports = {
         "import/no-unresolved": "off",
         indent: [2, 4],
         "react/react-in-jsx-scope": "off",
-        "i18next/no-literal-string": ['error', {markupOnly: true}],
+        "i18next/no-literal-string": ['error', {markupOnly: true, ignoreAttribute: ['data-testid', 'to']}],
 
     }
 }
