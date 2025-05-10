@@ -1,16 +1,29 @@
 module.exports = {
-    "env": {
+    settings: {
+        react: {
+            version: "17.0.2"
+        }
+    },
+
+    env: {
         "browser": true,
         "es2021": true,
         "jest": true
     },
-    "extends": [
-        // "eslint:recommended",
+    extends: [
+        "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:react/recommended"
     ],
-    "parser": "@typescript-eslint/parser",
-    "overrides": [
+    parser: "@typescript-eslint/parser",
+    overrides: [
+        {
+            files: ['**/*.test.{ts,tsx}', '**/*.stories.{ts,tsx}'],
+            rules: {
+                'i18next/no-literal-string': 'off',
+            },
+        },
+
         {
             "env": {
                 "node": true
@@ -23,7 +36,7 @@ module.exports = {
             }
         }
     ],
-    "parserOptions": {
+    parserOptions: {
         ecmaFeatures: {
             jsx: true
         },
@@ -31,19 +44,33 @@ module.exports = {
         "ecmaVersion": 2021,
         "sourceType": "module"
     },
-    "plugins": [
+    plugins: [
         "react",
         "@typescript-eslint",
-        "i18next"
+        "i18next",
+        "react-hooks"
     ],
-    "rules": {
-        "react/jsx-indent": [2, 4],
+    rules: {
+        "react/jsx-indent": ["error", 4],
+        indent: ["error", 4],
         "react/jsx-indent-props": [2, 4],
+        "react/jsx-indent": ["error", 4],
         "react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx", ".tsx"] }],
+        '@typescript-eslint/ban-ts-comment': 'warn',
         "import/no-unresolved": "off",
-        indent: [2, 4],
+        "import/prefer-default-export": "off",
+        'react/require-default-props': 'off',
+        "no-unused-vars": "warn",
         "react/react-in-jsx-scope": "off",
         "i18next/no-literal-string": ['error', {markupOnly: true, ignoreAttribute: ['data-testid', 'to']}],
-
-    }
+        "react/jsx-props-no-spreading": "warn",
+        "react/function-component-definition": "off",
+        "no-shadow": "off",
+        "import/no-extraneous-dependencies": "off",
+        "no-underscore-dangle": "off",
+        'react/display-name': 'off',
+    },
+    globals: {
+        '__IS_DEV__': true
+    }   
 }
