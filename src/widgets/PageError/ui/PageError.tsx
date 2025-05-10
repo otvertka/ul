@@ -11,12 +11,12 @@ export const PageError = ({ className }: PageErrorProps) => {
     const {t} = useTranslation();
     const reloadPage = ()=> location.reload();
 
-  return (
-    <div className={classNames(cls.PageError, {}, [className])}>
-        <p>{t('Ein unerwarteter Fehler ist aufgetreten')}</p>
-        <Button onClick={reloadPage}>
-            {t('Seite aktualisieren')}
-        </Button>
-    </div>
-  );
+    return (
+        <div className={classNames(cls.PageError, {}, [className])}>
+            <p>{t('Ein unerwarteter Fehler ist aufgetreten')}</p>
+            <Button onClick={reloadPage}>
+                {t('Seite aktualisieren')}
+            </Button>
+        </div>
+    );
 };

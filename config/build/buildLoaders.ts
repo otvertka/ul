@@ -10,20 +10,20 @@ export function buildLoaders({ isDev }: BuildOptions): webpack.RuleSetRule[] {
     };
 
     const babelLoader = {
-test: /\.(js|jsx|tsx)$/, 
-exclude: /node_nodules/, 
-use: { 
-    loader: "babel-loader", 
-    options: {
-        presets: ['@babel/preset-env', '@babel/preset-typescript'],
-        plugins: [
-            [ "i18next-extract", {
-            locales: ['de', 'en'],
-            keyAsDefaultValue: true,
-            }]
-        ]
-    }
-}};
+        test: /\.(js|jsx|tsx)$/, 
+        exclude: /node_nodules/, 
+        use: { 
+            loader: "babel-loader", 
+            options: {
+                presets: ['@babel/preset-env', '@babel/preset-typescript'],
+                plugins: [
+                    [ "i18next-extract", {
+                        locales: ['de', 'en'],
+                        keyAsDefaultValue: true,
+                    }]
+                ]
+            }
+        }};
 
 
     const fileLoader = {
