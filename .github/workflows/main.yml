@@ -9,11 +9,9 @@ on:
 jobs:
   pipeline:
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [17.x]
-
     steps:
       - uses: actions/checkout@v2
 
@@ -44,4 +42,4 @@ jobs:
         run: npm run storybook:build
 
       - name: Screenshot testing
-      run: npm run test:ui:ci
+        run: npm run test:ui:ci
