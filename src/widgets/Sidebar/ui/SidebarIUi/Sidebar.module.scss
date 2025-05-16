@@ -18,6 +18,28 @@
     margin-left: 20px;
 }
 
+.items {
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    fill: var(--inverted-primary-color);
+}
+
+.link {
+    margin-left: 10px;
+    opacity: 1;
+}
+
 .collapsed {
     width: var(--sidebar-width-collapsed);
 
@@ -28,6 +50,12 @@
 
     .lang {
         margin-left: 0;
+    }
+
+    .link {
+        opacity: 0;
+        transition: 0.1s opacity;
+        width: 0;
     }
 }
 
