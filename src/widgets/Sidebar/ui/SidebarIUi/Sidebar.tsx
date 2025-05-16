@@ -33,24 +33,24 @@ export const Sidebar = ({ className }: SidebarProps) => {
                 theme={ButtonTheme.BACKGROUND_INVERTED}
                 square
                 size= {ButtonSize.L}
-                >{collapsed ? '>' : '<'}
+            >{collapsed ? '>' : '<'}
             </Button>
 
             <div className={cls.items}>
-                    <AppLink 
+                <AppLink 
                     theme={AppLinkTheme.SECONDARY} 
                     to={RoutePath.main}
                     className={cls.item}>
-                        <MainIcon className={cls.icon}/>
-                        <span className={cls.link}> {t('Home')}</span>
+                    <MainIcon className={cls.icon}/>
+                    <span className={cls.link}> {t('Home')}</span>
                 </AppLink>        
 
-                    <AppLink 
+                <AppLink 
                     theme={AppLinkTheme.SECONDARY}
                     to={RoutePath.about}
                     className={cls.item}>
-                        <AboutIcon className={cls.icon}/>
-                        <span className={cls.link}>{t('About site')} </span> 
+                    <AboutIcon className={cls.icon}/>
+                    <span className={cls.link}>{t('About site')} </span> 
                 </AppLink>
         
             </div>
