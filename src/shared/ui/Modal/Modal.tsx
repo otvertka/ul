@@ -47,7 +47,7 @@ export const Modal = ( props : ModalProps) => {
             clearTimeout(timerRef.current);
             window.removeEventListener('keydown', onKeyDown)
         }
-        }, [isOpen, onKeyDown])
+    }, [isOpen, onKeyDown])
 
     const mods: Record<string, boolean> = {
         [cls.opened]: isOpen,
@@ -65,6 +65,6 @@ export const Modal = ( props : ModalProps) => {
                     </div>
                 </div>
             </div>
-    </Portal>
+        </Portal>
     );
 };
