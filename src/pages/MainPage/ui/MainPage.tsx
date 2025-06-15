@@ -1,9 +1,7 @@
 import { useTranslation } from "react-i18next"
-
 interface MainPageProps {
     someProp?: string
 }
-
 
 const MainPage = (props: MainPageProps) => {
 

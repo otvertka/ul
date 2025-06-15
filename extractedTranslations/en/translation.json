@@ -1,6 +1,7 @@
 {
   "": "",
   "About site": "",
+  "Anmelden": "",
   "Ein unerwarteter Fehler ist aufgetreten": "Ein unerwarteter Fehler ist aufgetreten",
   "Home": "",
   "S": "",
@@ -9,6 +10,8 @@
   "Seite nicht gefunden": "Seite nicht gefunden",
   "Sprache": "Sprache",
   "Startseite": "Startseite",
+  "decrement": "decrement",
+  "increment": "increment",
   "throw Error": "throw Error",
   "über die Seite": "über die Seite",
   "über die Seite ": "über die Seite ",

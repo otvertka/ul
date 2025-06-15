@@ -21,6 +21,7 @@ module.exports = {
             files: ['**/*.test.{ts,tsx}', '**/*.stories.{ts,tsx}'],
             rules: {
                 'i18next/no-literal-string': 'off',
+                'max-len':'off'
             },
         },
 
@@ -69,6 +70,10 @@ module.exports = {
         "import/no-extraneous-dependencies": "off",
         "no-underscore-dangle": "off",
         'react/display-name': 'off',
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "error",
+        "no-param-reassign": 'off',
+
     },
     globals: {
         '__IS_DEV__': true
