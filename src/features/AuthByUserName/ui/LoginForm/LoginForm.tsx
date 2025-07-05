@@ -9,14 +9,14 @@ interface LoginFormProps {
 }
 
 export const LoginForm = ({ className }: LoginFormProps) => {
-  const { t } = useTranslation();
-  return (
-    <div className={classNames(cls.LoginForm, {}, [className])}>
-        <Input type="text" className={cls.input} placeholder={t('Passwort eingeben')} autoFocus/>
-        <Input type="text" className={cls.input} placeholder={t('Namen eingeben')}/>
-        <Button className={cls.loginBtn}>
-        {t('Login')}
-        </Button>
-    </div>
-  );
+    const { t } = useTranslation();
+    return (
+        <div className={classNames(cls.LoginForm, {}, [className])}>
+            <Input type="text" className={cls.input} placeholder={t('Passwort eingeben')} autoFocus/>
+            <Input type="text" className={cls.input} placeholder={t('Namen eingeben')}/>
+            <Button className={cls.loginBtn}>
+                {t('Login')}
+            </Button>
+        </div>
+    );
 };
