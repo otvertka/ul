@@ -114,6 +114,11 @@
         "preset": "iPhone 7"
       }
     },
+      "scenarios": {
+        "default": {
+          "delay": 500
+        }
+      },
     "storiesFilter": null,
     "reactUri": "http://host.docker.internal:6006"
   }
