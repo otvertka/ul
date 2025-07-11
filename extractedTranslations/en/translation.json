@@ -2,6 +2,15 @@
   "": "",
   "About site": "",
   "Anmelden": "",
+  "Au": "",
+  "Aut": "",
+  "Authorisa": "",
+  "Authorisation ": "Authorisation ",
+  "Authorisation form": "",
+  "Autorisierungsformular": "",
+  "Benutzername oder Passwort ist falsch": {
+    "": ""
+  },
   "Ein unerwarteter Fehler ist aufgetreten": "Ein unerwarteter Fehler ist aufgetreten",
   "Home": "",
   "Login": "Login",
@@ -14,6 +23,7 @@
   "Sprache": "Sprache",
   "Startseite": "Startseite",
   "decrement": "decrement",
+  "hinausgehen": "",
   "increment": "increment",
   "throw Error": "throw Error",
   "über die Seite": "über die Seite",

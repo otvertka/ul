@@ -2,6 +2,14 @@
   "": "",
   "About site": "About site",
   "Anmelden": "Anmelden",
+  "Au": "Au",
+  "Aut": "Aut",
+  "Authorisation ": "Authorisation ",
+  "Authorisation form": "Authorisation form",
+  "Autorisierungsformular": "Autorisierungsformular",
+  "Benutzername oder Passwort ist falsch": {
+    "": ""
+  },
   "Ein unerwarteter Fehler ist aufgetreten": "Ein unerwarteter Fehler ist aufgetreten",
   "Home": "Home",
   "Login": "Login",
@@ -13,6 +21,7 @@
   "Sprache": "Sprache",
   "Startseite": "Startseite",
   "decrement": "decrement",
+  "hinausgehen": "hinausgehen",
   "increment": "increment",
   "throw Error": "throw Error",
   "über die Seite": "über die Seite",

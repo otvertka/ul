@@ -9,5 +9,9 @@
   "About site": "Über die Site",
   "Kurze Sprache": "De",
   "increment": "",
-  "Login": "Login"
+  "Login": "Login",
+  "Autorisierungsformular": "Autorisierungsformular",
+  "Namen eingeben": "Namen eingeben",
+  "Passwort eingeben": "Passwort eingeben",
+  "Benutzername oder Passwort ist falsch.": "Benutzername oder Passwort ist falsch."
 }

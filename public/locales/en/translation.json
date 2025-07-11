@@ -9,5 +9,9 @@
   "Schalten": "Switch",
   "Home": "Home",
   "Kurze Sprache": "En",
-  "Login": "Login"
+  "Login": "Login",
+  "Autorisierungsformular": "Authorization",
+  "Namen eingeben": "Name",
+  "Passwort eingeben": "Password",
+  "Benutzername oder Passwort ist falsch.": "Wrong Name or Password"
 }
