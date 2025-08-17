@@ -3,22 +3,25 @@
     {
       "id": "1",
       "title": "a title",
-      "views": 100
+      "views": 100,
+      "userId": "1"
     },
     {
       "id": "2",
       "title": "another title",
-      "views": 200
+      "views": 200,
+      "userId": "2"
     },
     {
       "id": "3",
       "title": "another title 3",
-      "views": 200
+      "views": 200,
+      "userId": "3"
     }
   ],
     "users": [
       {
-        "id": 1,
+        "id": "1",
         "username": "admin",
         "password": "123"
       }
