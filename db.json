@@ -14,6 +14,13 @@
     }
   ],
   "profile": {
-    "name": "typicode"
-  }
+    "first": "Jk",
+    "lastname": "M",
+    "age": 42,
+    "currency": "EU",
+    "country": "Deutschland",
+    "city": "Bocholt",
+    "username": "admin",
+    "avatar": "https://img.freepik.com/premium-vector/man-avatar-profile-picture-isolated-background-avatar-profile-picture-man_1293239-4866.jpg"
+}
 }
