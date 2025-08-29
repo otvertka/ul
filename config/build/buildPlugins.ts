@@ -11,6 +11,7 @@ import {BundleAnalyzerPlugin} from 'webpack-bundle-analyzer';
 export function buildPlugins({
     paths,
     isDev,
+    apiUrl
 }: BuildOptions): webpack.WebpackPluginInstance[] {
 
     const plugins = [
@@ -25,6 +26,7 @@ export function buildPlugins({
 
         new webpack.DefinePlugin({
             __IS_DEV__: JSON.stringify(isDev),
+            __API__: JSON.stringify(apiUrl),
         }),
         // new webpack.HotModuleReplacementPlugin(),
     ];
