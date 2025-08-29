@@ -44,8 +44,8 @@ const LoginForm =  memo (({ className, onSuccess }: LoginFormProps) => {
     },[dispatch]);
 
     const onLoginClick = useCallback( async () => {
-       const result = await dispatch(loginByUsername({username, password}));
-       console.log(result);
+        const result = await dispatch(loginByUsername({username, password}));
+        console.log(result);
         if (result.meta .requestStatus === 'fulfilled') {
             onSuccess();
         }
@@ -57,28 +57,28 @@ const LoginForm =  memo (({ className, onSuccess }: LoginFormProps) => {
 
         <DynamicModuleLoader removeAfterUnmount = {true} reducers={initialReducers}>
             <div className={classNames(cls.LoginForm, {}, [className])}>
-            <Text title = {t('Autorisierungsformular')}/>    
-            {error && <Text text ={t('Benutzername oder Passwort ist falsch.')} theme ={TextTheme.ERROR}/>}
-            <Input 
-                type="text" 
-                className={cls.input}
-                placeholder={t('Namen eingeben')}
-                onChange={onChangeUsername}
-                value = {username}/>
-            <Input 
-                type="text" 
-                className={cls.input}
-                placeholder={t('Passwort eingeben')}
-                autoFocus onChange={onChangePassword}
-                value={password}/>
-            <Button
-                theme={ButtonTheme.OUTLINE}
-                className={cls.loginBtn}
-                onClick={onLoginClick}
-                disabled ={isLoading}>
-                {t('Login')}
-            </Button>
-        </div>
+                <Text title = {t('Autorisierungsformular')}/>    
+                {error && <Text text ={t('Benutzername oder Passwort ist falsch.')} theme ={TextTheme.ERROR}/>}
+                <Input 
+                    type="text" 
+                    className={cls.input}
+                    placeholder={t('Namen eingeben')}
+                    onChange={onChangeUsername}
+                    value = {username}/>
+                <Input 
+                    type="text" 
+                    className={cls.input}
+                    placeholder={t('Passwort eingeben')}
+                    autoFocus onChange={onChangePassword}
+                    value={password}/>
+                <Button
+                    theme={ButtonTheme.OUTLINE}
+                    className={cls.loginBtn}
+                    onClick={onLoginClick}
+                    disabled ={isLoading}>
+                    {t('Login')}
+                </Button>
+            </div>
         </DynamicModuleLoader>
     );
 }

@@ -16,10 +16,10 @@ export class TestAsyncThunk<Return, Arg, RejectedValue> {
         this.dispatch = jest.fn();
     }
         
-        async callThunk(arg: Arg) {
-            const action = this.actionCreator(arg); 
-            const result = await action(this.dispatch, this.getState, undefined);
+    async callThunk(arg: Arg) {
+        const action = this.actionCreator(arg); 
+        const result = await action(this.dispatch, this.getState, undefined);
         return result;
-        }
+    }
 
 }

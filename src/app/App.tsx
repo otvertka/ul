@@ -13,9 +13,9 @@ const App = () => {
     const dispatch = useDispatch();
     // const [isOpen, setIsOpen] = useState(false);
 
-useEffect(()=> {
-    dispatch(userActions.initAuthData());
-}, [dispatch])
+    useEffect(()=> {
+        dispatch(userActions.initAuthData());
+    }, [dispatch])
 
 
     return (

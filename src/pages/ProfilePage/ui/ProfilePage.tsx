@@ -13,14 +13,14 @@ interface ProfilePageProps {
 }
 
 const ProfilePage = memo(({ className }: ProfilePageProps) => {
-  const { t } = useTranslation();
-  return (
-  <DynamicModuleLoader reducers={reducers} removeAfterUnmount>
-      <div className={classNames('', {}, [className])}>
-        {t('PROFILE PAGE')}
-    </div>
-  </DynamicModuleLoader>
-  );
+    const { t } = useTranslation();
+    return (
+        <DynamicModuleLoader reducers={reducers} removeAfterUnmount>
+            <div className={classNames('', {}, [className])}>
+                {t('PROFILE PAGE')}
+            </div>
+        </DynamicModuleLoader>
+    );
 });
 
 export default ProfilePage;
