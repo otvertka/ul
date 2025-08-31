@@ -6,6 +6,6 @@ export const $api = axios.create({
     baseURL: __API__,
     timeout: 1000,
     headers: {
-        authorization: localStorage.getItem(USER_LOCALSTORAGE_KEY)
+        authorization: localStorage.getItem(USER_LOCALSTORAGE_KEY) || ''
     }
 })
