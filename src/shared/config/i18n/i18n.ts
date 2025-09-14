@@ -18,6 +18,7 @@ i18n
 // for all options read: https://www.i18next.com/overview/configuration-options
     .init({
         fallbackLng: "en",
+        supportedLngs: ["en", "de"],
         debug: __IS_DEV__,
 
         interpolation: {

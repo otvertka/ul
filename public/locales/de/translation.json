@@ -13,5 +13,8 @@
   "Autorisierungsformular": "Autorisierungsformular",
   "Namen eingeben": "Namen eingeben",
   "Passwort eingeben": "Passwort eingeben",
-  "Benutzername oder Passwort ist falsch.": "Benutzername oder Passwort ist falsch."
+  "Benutzername oder Passwort ist falsch.": "Benutzername oder Passwort ist falsch.",
+  "profile": {
+    "Ihre Nickname": "Ihre Nicname"
+  }
 }

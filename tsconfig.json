@@ -16,7 +16,7 @@
     // Для абсолютного импорта
     "baseUrl": ".",
     "paths": {
-      "*": ["./src/*"],
+      "*": ["./src/*"]
     },
     // esModuleInterop позволяет работать с пакетами, которые используют
     // common js как с обычными пакета с помощью import (require() module.export) = common js
@@ -40,9 +40,8 @@
     }
   },
   "include": [
-    "src",
     "./config/jest/setupTests.ts",
     "./src/**/*.ts",
-    "./src/**/*.tsx", "config/storybook",
+    "./src/**/*.tsx", "src/features/AuthByUserName/model/services/lasdasd",
   ]
 }

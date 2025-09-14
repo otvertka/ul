@@ -2,38 +2,37 @@
   "posts": [
     {
       "id": "1",
-      "title": "a title",
-      "views": 100,
+      "title": "json-server",
       "userId": "1"
     },
     {
       "id": "2",
-      "title": "another title",
-      "views": 200,
+      "title": "json-server",
       "userId": "2"
-    },
-    {
-      "id": "3",
-      "title": "another title 3",
-      "views": 200,
-      "userId": "3"
     }
   ],
-    "users": [
-      {
-        "id": "1",
-        "username": "admin",
-        "password": "123"
-      }
-    ],
   "comments": [
     {
       "id": "1",
-      "text": "a comment about post 1",
-      "postId": "1"
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123"
     }
   ],
   "profile": {
-    "name": "typicode"
+    "first": "Jka",
+    "lastname": "Evg",
+    "age": 39,
+    "currency": "USD",
+    "country": "Switzerland",
+    "city": "DDD",
+    "username": "admin",
+    "avatar": "https://img.freepik.com/premium-vector/man-avatar-profile-picture-isolated-background-avatar-profile-picture-man_1293239-4866.jpg"
   }
 }
