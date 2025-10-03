@@ -7,6 +7,8 @@
     "stornieren": "Cancel",
     "Speichern": "Save",
     "Stadt": "City",
-    "Ihre Avatar": "Your Avatar"
+    "Ihre Avatar": "Your Avatar",
+    "Server Fehler": "Server Error",
+    "Falsche Benutzerdaten": "Incorrect User Data"
   }
 }
