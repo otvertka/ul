@@ -22,4 +22,3 @@ const MainPage = memo((props: MainPageProps) => {
 })
 
 export default MainPage;
-

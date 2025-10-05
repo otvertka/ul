@@ -34,7 +34,7 @@ select {
     --inverted-secondary-color: rgb(105 223 105);
 }
 
-.app.dark {
+.app_dark_theme {
     --bg-color: rgb(1 1 66);
     --inverted-bg-color: rgb(218 218 218);
     --primary-color: rgb(0 160 0);
