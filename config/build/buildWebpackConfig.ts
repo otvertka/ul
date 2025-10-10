@@ -3,7 +3,6 @@ import { BuildOptions } from "./types/config";
 import { buildPlugins } from "./buildPlugins";
 import { buildLoaders } from "./buildLoaders";
 import { buildResolvers } from "./buildResolvers";
-import path from "path";
 import { buildDevServer } from "./buildDevServer";
 
 export function buildWebpackConfig(
@@ -18,6 +17,7 @@ export function buildWebpackConfig(
             filename: "[name].[contenthash].js",
             path: paths.build,
             clean: true,
+            publicPath: '/',
         },
         plugins: buildPlugins(options),
         module: {
