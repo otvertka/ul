@@ -1,12 +1,48 @@
 {
-    "i18n-ally.localesPaths": [
-        "public/locales",
-        "src/shared/config/i18n"
-    ],
-    "i18n-ally.keystyle": "nested",
-    
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": "explicit"
-    },
-    "editor.snippets.codeActions.enabled": true
+  // 🌍 I18n Ally — пути к локалям
+  "i18n-ally.localesPaths": [
+    "public/locales",
+    "src/shared/config/i18n"
+  ],
+
+  // 🧩 Фреймворк
+  "i18n-ally.enabledFrameworks": ["react-i18next"],
+  "i18n-ally.framework": "react-i18next",
+
+  // 🌐 Языки
+  "i18n-ally.sourceLanguage": "en",
+  "i18n-ally.displayLanguage": "de",
+
+  // 🔑 Стиль ключей и организация
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.sortKeys": true,
+
+  // 💬 Извлечение ключей
+  "i18n-ally.extract.keyPrefix": "article",
+  "i18n-ally.extract.autoDetect": true,
+
+  // ⚙️ Поведение в редакторе
+  "i18n-ally.editor.enableCodeActions": true,
+  "i18n-ally.editor.preferEditorAction": true,
+
+  // 🧹 Исправление ESLint при сохранении
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // ✨ Включаем Code Snippets (если используешь)
+  "editor.snippets.codeActions.enabled": true,
+
+  // 🚫 Отключаем встроенный форматтер для TS/JS, если ESLint отвечает за форматирование
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+
+  // 🎨 Для SCSS используем Stylelint
+  "[scss]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  }
 }

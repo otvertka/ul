@@ -2,6 +2,7 @@
   "": "",
   "About site": "About site",
   "Anmelden": "Anmelden",
+  "Artikel nicht gefunden": "Artikel nicht gefunden",
   "Au": "Au",
   "Aut": "Aut",
   "Authorisation ": "Authorisation ",
@@ -9,6 +10,9 @@
   "Autorisierungsformular": "Autorisierungsformular",
   "Bearbeiten": "Bearbeiten",
   "Beim Laden Ihres Profils ist ein Fehler aufgetreten": {
+    "": ""
+  },
+  "Beim Laden des Artikels ist ein Fehler aufgetreten": {
     "": ""
   },
   "Benutzername oder Passwort ist falsch": {
@@ -63,6 +67,7 @@
   "Startseite": "Startseite",
   "Versuchen Sie, die Seite zu aktualisieren": "Versuchen Sie, die Seite zu aktualisieren",
   "Währung angeben": "Währung angeben",
+  "article-load-error": "article-load-error",
   "decrement": "decrement",
   "hinausgehen": "hinausgehen",
   "increment": "increment",
@@ -70,5 +75,11 @@
   "throw Error": "throw Error",
   "über die Seite": "über die Seite",
   "über die Seite ": "über die Seite ",
-  "über die Seite 123213123": "über die Seite 123213123"
+  "über die Seite 123213123": "über die Seite 123213123",
+  "Произошла ошибка при загрузке статьи": {
+    "": ""
+  },
+  "„Beim Laden des Artikels ist ein Fehler aufgetreten": {
+    "": ""
+  }
 }
