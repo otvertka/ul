@@ -91,8 +91,8 @@ export const ArticleDetails = memo((props: ArticleDetailsProps) => {
         );
     } else if (error) {
         content = (
-			<Text align={TextAlign.CENTER}
-			title = { t('Beim Laden des Artikels ist ein Fehler aufgetreten')}/>
+            <Text align={TextAlign.CENTER}
+                title = { t('Beim Laden des Artikels ist ein Fehler aufgetreten')}/>
         );
     } else {
         content = (

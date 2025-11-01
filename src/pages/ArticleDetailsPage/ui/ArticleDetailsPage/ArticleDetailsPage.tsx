@@ -11,22 +11,22 @@ interface ArticleDetailsPageProps {
 }
 
 const ArticleDetailsPage = ({ className }: ArticleDetailsPageProps) => {
-  const { t } = useTranslation('article-details');
-  const { id } = useParams<{ id: string }>();
+    const { t } = useTranslation('article-details');
+    const { id } = useParams<{ id: string }>();
 
     if(!id) {
-      return (
-      <div className={classNames(cls.ArticleDetailsPage, {}, [className])}>
-        {t('Artikel nicht gefunden')}
-      </div>
-      ) 
+        return (
+            <div className={classNames(cls.ArticleDetailsPage, {}, [className])}>
+                {t('Artikel nicht gefunden')}
+            </div>
+        ) 
     }
 
-  return (
-    <div className={classNames(cls.ArticleDetailsPage, {}, [className])}>
-        <ArticleDetails id ={id}/>
-    </div>
-  );
+    return (
+        <div className={classNames(cls.ArticleDetailsPage, {}, [className])}>
+            <ArticleDetails id ={id}/>
+        </div>
+    );
 };
 
 export default memo(ArticleDetailsPage);

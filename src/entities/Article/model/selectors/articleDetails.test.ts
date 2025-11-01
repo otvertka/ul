@@ -24,7 +24,7 @@ describe('articleDetails.test', () =>{
         const state: DeepPartial<StateSchema> ={
             articleDetails: {
                 error: 'error'
-        } 
+            } 
         };
         expect(getArticleDetailsError(state as StateSchema)).toEqual('error')
     });
@@ -36,7 +36,7 @@ describe('articleDetails.test', () =>{
         const state: DeepPartial<StateSchema> ={
             articleDetails: {
                 isLoading: true
-        } 
+            } 
         };
         expect(getArticleDetailsIsLoading(state as StateSchema)).toEqual(true)
     });

@@ -15,10 +15,10 @@ const AppRouter = () => {
         )
         return (
             <Route
-            key={route.path}
-            path={route.path}
-            element={route.authOnly ? <RequireAuth>{element}</RequireAuth> : element}
-        />
+                key={route.path}
+                path={route.path}
+                element={route.authOnly ? <RequireAuth>{element}</RequireAuth> : element}
+            />
         )
     }, [])
 
