@@ -44,5 +44,6 @@
   // 🎨 Для SCSS используем Stylelint
   "[scss]": {
     "editor.defaultFormatter": "stylelint.vscode-stylelint"
-  }
+  },
+  "liveServer.settings.port": 5502
 }
